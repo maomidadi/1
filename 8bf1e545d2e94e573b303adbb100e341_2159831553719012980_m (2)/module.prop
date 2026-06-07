@@ -1,0 +1,8 @@
+id=perf_ai
+name=性能优化-AI
+version=2.2 | WebUI | 长期支持版
+versionCode=3
+author=@reljawa, 鸣谢 : @RiProg, @Dcx400, @HoyoSlave @vestia_zeta @Kzuyoo | Telegram 
+description=欢迎使用高级 WebUI 菜单，旨在提升游戏性能、优化功耗，并通过 AI 驱动的自动切换功能在游戏模式和日常模式之间精细调整部分设置。
+banner=banner.jpg
+axeronPlugin=10400

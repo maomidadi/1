@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Perf Manager Launcher</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<style>
+    .progress-container {
+        width: 100%;
+        background-color: #374151;
+        border-radius: 10px;
+        height: 12px;
+        margin-top: 0.5rem;
+        overflow: hidden;
+        display: none;
+    }
+    .progress-bar {
+        width: 0%;
+        height: 100%;
+        background-color: #3b82f6;
+        transition: width 0.2s ease;
+        box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+    }
+</style>
+</head>
+<body>
+
+<div id="mainContent" class="card">
+  <h1 class="title">Perf Manager</h1>
+  
+  <div id="progressContainer" class="progress-container">
+    <div id="progressBar" class="progress-bar"></div>
+  </div>
+  
+  <p class="caption" id="statusText" style="margin-top: 1rem;">Memuat sistem...</p>
+  <div class="spinner large" style="margin: 0 auto 1rem auto;"></div>
+  
+  <div id="statusMessage" class="status"></div>
+</div>
+
+<script type="module" src="function.js"></script>
+
+</body>
+</html>
